@@ -1,7 +1,5 @@
 # minmin-nuxt-template
 
-# minmin-template
-
 ## Install
 npm install
 
