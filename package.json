@@ -1,0 +1,27 @@
+{
+  "name": "minmin-nuxt-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "backpack",
+    "build": "nuxt build && backpack build",
+    "start": "node build/main.js",
+    "generate": "nuxt generate"
+  },
+  "author": "minhdtb",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minmin": "0.0.35",
+    "nuxt": "^1.4.2",
+    "vue-class": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^10.5.7",
+    "backpack-core": "^0.7.0",
+    "ts-loader": "^3.5.0",
+    "typescript": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^1.2.7"
+  }
+}
